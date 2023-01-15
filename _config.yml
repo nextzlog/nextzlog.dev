@@ -1,0 +1,30 @@
+remote_theme: nextzlog/pafe
+url: https://nextzlog.dev
+name: 無線部開発班
+icon: /assets/head.png
+lead: The University of Tokyo Amateur Radio Club System Development Task Force
+desc: &lead
+items:
+- name: リアルタイムコンテスト
+  href: /real
+links:
+- name: Edit
+  href: https://github.com/nextzlog/nextzlog.dev
+  icon: fas fa-edit
+- name: ToDo
+  href: https://github.com/nextzlog/todo/issues
+  icon: fas fa-comments
+- name: Twitter
+  href: https://twitter.com/nextzlog
+  icon: fab fa-twitter
+- name: 無線部の記事
+  href: https://book.nextzlog.dev
+- name: 東大無線部
+  href: https://ja1zlo.u-tokyo.org
+jumps:
+- name: autodyne
+  href: https://github.com/autodyne
+  icon: fab fa-github
+- name: nextzlog
+  href: https://github.com/nextzlog
+  icon: fab fa-github
