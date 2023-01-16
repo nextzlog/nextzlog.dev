@@ -2,15 +2,22 @@ on:
   push:
     branches:
     - 'master'
+  schedule:
+  - cron: '0 0 * * *'
 permissions:
   contents: read
   id-token: write
   pages: write
+env:
+  ISSUES: repos/nextzlog/todo/issues
+  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 jobs:
   Prepare:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - run: mkdir _data
+    - run: gh api $ISSUES --paginate > _data/issues.json
     - uses: actions/configure-pages@v2
     - uses: actions/jekyll-build-pages@v1
     - uses: actions/upload-pages-artifact@v1
