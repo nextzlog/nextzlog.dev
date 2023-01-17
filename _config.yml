@@ -17,6 +17,8 @@ links:
 - name: Twitter
   href: https://twitter.com/nextzlog
   icon: fab fa-twitter
+- name: zLog.org
+  href: https://zlog.org
 - name: 無線部の記事
   href: https://book.nextzlog.dev
 - name: 東大無線部
