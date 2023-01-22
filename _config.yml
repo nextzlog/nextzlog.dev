@@ -5,6 +5,8 @@ icon: /assets/head.png
 lead: The University of Tokyo Amateur Radio Club System Development Task Force
 desc: &lead
 items:
+- name: コンテスト運営システム
+  href: /ats4
 - name: リアルタイムコンテスト
   href: /real
 links:
