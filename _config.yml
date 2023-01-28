@@ -32,3 +32,5 @@ jumps:
 - name: nextzlog
   href: https://github.com/nextzlog
   icon: fab fa-github
+plugins:
+- jekyll-sitemap
