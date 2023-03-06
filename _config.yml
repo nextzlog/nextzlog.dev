@@ -10,18 +10,12 @@ items:
 - name: リアルタイムコンテスト
   href: /real
 links:
-- name: Edit
-  href: https://github.com/nextzlog/nextzlog.dev
-  icon: fas fa-edit
-- name: ToDo
-  href: https://github.com/nextzlog/todo/issues
-  icon: fas fa-comments
 - name: Twitter
   href: https://twitter.com/nextzlog
   icon: fab fa-twitter
-- name: zLog.org
+- name: zLog
   href: https://zlog.org
-- name: 無線部の記事
+- name: 無線部開発班の本
   href: https://book.nextzlog.dev
 - name: 東大無線部
   href: https://ja1zlo.u-tokyo.org
